@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 4%;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(1.jpg);
+    background-size: cover;
+    background-position: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .contact-title
+    {
+    margin-top: 100px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    }
+    .contact-title h1{
+    font-size: 60px;
+    line-height: 5px;
+    }
+    .contact-title h2
+    {
+    font-size: 10px;
+    }
+    form
+    {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    }
+    .form-control
+    {
+    width: 700px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    }
+    input {
+        height: 45px;
+        }
+        form.submit
+        {
+        background: #ff5722;
+        border-color: transparent;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 20px;
+        }
